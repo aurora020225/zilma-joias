@@ -1,0 +1,15 @@
+Projeto: Zilma Joias
+Arquivos grandes (fonte/asset) estão hospedados no Google Drive: https://drive.google.com/drive/folders/1gSus4o0omNWd2ekjHn_B3gG5XhOwb_qD?usp=drive_link
+
+Instruções rápidas para implantar no Netlify (site estático):
+
+Garanta que o repositório contenha os arquivos do código (HTML/CSS/JS). Se não conseguir enviar arquivos grandes, mantenha apenas o código e deixe os ativos grandes no Drive.
+Sem Netlify:
+Acesse https://app.netlify.com/ → clique em “Adicionar novo site” → “Importar do Git” → conecte sua conta GitHub.
+Selecione o aurora020225/zilma-joias.
+Filial: main.
+Comando de construção: (deixe vazio se para site estático simples). Se for React/Vue, coloque npm run build.
+Diretório de publicação: /para site estático; buildpara Criar aplicativo React; distpara Vue CLI.
+Clique em “Implantar site” e aguarde.
+Se o deploy falhar, copie os logs e cole aqui — eu te ajudo a renovar.
+Se quiser que eu crie um Release com link pro Drive, me autorize e eu faço.
